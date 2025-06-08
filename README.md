@@ -1,0 +1,1 @@
+A collection of Verilog codes demonstrating digital design concepts, including full adders, multiplexers, state machines, and more. Ideal for understanding fundamental and advanced hardware description techniques.
