@@ -1,0 +1,65 @@
+$date
+	Thu Feb 20 23:21:30 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test_color_detector $end
+$var wire 2 ! colour [1:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var parameter 2 $ GREEN $end
+$var parameter 2 % RED $end
+$var parameter 2 & YELLOW $end
+$var reg 2 ' cs [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 &
+b0 %
+b10 $
+$end
+#0
+$dumpvars
+b0 '
+1#
+1"
+b0 !
+$end
+#50000
+0#
+0"
+#100000
+b1 !
+b1 '
+1"
+#150000
+0"
+#200000
+b10 !
+b10 '
+1"
+#250000
+b0 !
+b0 '
+0"
+1#
+#300000
+b1 !
+b1 '
+1"
+0#
+#350000
+0"
+#400000
+b10 !
+b10 '
+1"

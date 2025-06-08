@@ -1,0 +1,235 @@
+$date
+	Sat Apr 26 15:44:34 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_ram $end
+$var wire 8 ! data_out_b [7:0] $end
+$var wire 8 " data_out_a [7:0] $end
+$var reg 6 # addr_a [5:0] $end
+$var reg 6 $ addr_b [5:0] $end
+$var reg 1 % clk $end
+$var reg 1 & cs $end
+$var reg 8 ' data_in_a [7:0] $end
+$var reg 8 ( data_in_b [7:0] $end
+$var reg 1 ) re_a $end
+$var reg 1 * re_b $end
+$var reg 1 + rst $end
+$var reg 1 , we_a $end
+$var reg 1 - we_b $end
+$scope module uut $end
+$var wire 6 . addr_a [5:0] $end
+$var wire 6 / addr_b [5:0] $end
+$var wire 1 % clk $end
+$var wire 1 & cs $end
+$var wire 8 0 data_in_a [7:0] $end
+$var wire 8 1 data_in_b [7:0] $end
+$var wire 1 ) re_a $end
+$var wire 1 * re_b $end
+$var wire 1 + rst $end
+$var wire 1 , we_a $end
+$var wire 1 - we_b $end
+$var reg 8 2 data_out_a [7:0] $end
+$var reg 8 3 data_out_b [7:0] $end
+$var integer 32 4 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 4
+bx 3
+bx 2
+b0 1
+b0 0
+b0 /
+b0 .
+0-
+0,
+0+
+0*
+0)
+b0 (
+b0 '
+1&
+0%
+b0 $
+b0 #
+bx "
+bx !
+$end
+#5
+b10000000 4
+1+
+1%
+#10
+0%
+#15
+1%
+0+
+#20
+0%
+#25
+1%
+1,
+b10101010 '
+b10101010 0
+b101 #
+b101 .
+#30
+0%
+#35
+b10101010 "
+b10101010 2
+1%
+1)
+0,
+#40
+0%
+#45
+1%
+#50
+0%
+#55
+1%
+1-
+b1010101 (
+b1010101 1
+b1010 $
+b1010 /
+#60
+0%
+#65
+b1010101 !
+b1010101 3
+1%
+1*
+0-
+#70
+0%
+#75
+1%
+#80
+0%
+#85
+1%
+1,
+b10111011 '
+b10111011 0
+#90
+0%
+#95
+b10111011 !
+b10111011 3
+b10111011 "
+b10111011 2
+1%
+1-
+b11001100 (
+b11001100 1
+b101 $
+b101 /
+#100
+0%
+#105
+b11001100 !
+b11001100 3
+b11001100 "
+b11001100 2
+1%
+0-
+0,
+#110
+0%
+#115
+1%
+#120
+0%
+#125
+1%
+#130
+0%
+#135
+b0 "
+b0 2
+1%
+1,
+b11011101 '
+b11011101 0
+b1111 #
+b1111 .
+#140
+0%
+#145
+b0 !
+b0 3
+b11011101 "
+b11011101 2
+1%
+1-
+b11101110 (
+b11101110 1
+b10100 $
+b10100 /
+#150
+0%
+#155
+b11101110 !
+b11101110 3
+1%
+0-
+0,
+#160
+0%
+#165
+1%
+#170
+0%
+#175
+1%
+#180
+0%
+#185
+b10000000 4
+1%
+1+
+#190
+0%
+#195
+b0 !
+b0 3
+b0 "
+b0 2
+1%
+0+
+#200
+0%
+#205
+1%
+b101 #
+b101 .
+#210
+0%
+#215
+1%
+#220
+0%
+#225
+1%
+b1010 $
+b1010 /
+#230
+0%
+#235
+1%
+#240
+0%
+#245
+1%
